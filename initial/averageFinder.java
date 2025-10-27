@@ -1,6 +1,7 @@
 package sam.classIntro
 
 public class AverageFinder {
+    // Find the average of a list of numbers passed as command line arguments
     public static void main(String[] args){
         System.out.printLn("AverageFinder");
         double avg = findAverage(args);
