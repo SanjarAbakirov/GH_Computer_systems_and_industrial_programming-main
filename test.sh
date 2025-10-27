@@ -1,8 +1,10 @@
-echo "Hello world"''
+echo "Hello, world"
 
-x=""my name is Sam""
+x="my name is Sam"
 
 echo '$x'
 echo "$x"
 
-echo "S{x}"
+echo "${x}"
+echo "${x:0:7}"
+echo "${#x}"
