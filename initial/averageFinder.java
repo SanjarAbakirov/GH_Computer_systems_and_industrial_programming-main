@@ -9,6 +9,7 @@ public class AverageFinder {
     }
 
     static double findAverage(String[] input){
+        // double to hold the result allowed to have decimal points and integers
         double result = 0;
         if (input.length == 0) {
             return result;
