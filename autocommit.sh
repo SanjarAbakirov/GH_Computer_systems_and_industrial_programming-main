@@ -1,4 +1,4 @@
-PATH="/Users/sanjarabakirov/GH_Computer_systems/GH_Computer_systems_and_industrial_programming-main"
+PATH="./GH_Computer_systems_and_industrial_programming-main"
 
 cd "$PATH" || exit
 
@@ -11,5 +11,6 @@ while true; do
 		git commit -m "auto commit $(date)" || true
 		git push
     fi
-    sleep 10
+    sleep 5
 done
+
