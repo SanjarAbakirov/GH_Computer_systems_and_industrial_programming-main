@@ -1,6 +1,6 @@
-PATH="./GH_Computer_systems_and_industrial_programming-main"
+# PATH="./GH_Computer_systems_and_industrial_programming-main"
+# cd "$PATH" || exit
 
-cd "$PATH" || exit
 
 echo "Control all changes in $PATH..."
 
